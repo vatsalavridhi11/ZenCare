@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/home.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-seedling"></i></i> ZenCare </a>
+
+
+    <nav class="navbar">
+        <a href="home.html">home</a>
+        <a href="about.html">about us</a>
+        <a href="doctors.html">doctors</a>
+        <a href="blogs.html">blogs</a>
+        <a href="registration.html">register</a>
+
+    </nav>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+</header>
+<br>
+<br>
+<br>
+<br>
+<br>
+<section class="register" id="book"  style="background-image:url(image/bg4.png) ; background-repeat: no-repeat;  background-size: 100% 100%;">
+    <br><br><br><br>
+        <!-- <h1 class="heading"> Register</h1>     -->
+       
+        <div class="row">
+   
+    <div class="form">
+            <form action="" name="form" onsubmit="return validateform()">
+                <h3 style="color:  #353743;text-shadow:.4rem .4rem 0 #bdc6ff53;">Register Now!</h3>
+                <p>Already have an account? <a href="login2.html">Login</a> </p>
+                <input type="text" name="name" placeholder="Enter your name" class="box" id="red">
+                <input type="text" name="date" placeholder="Enter your date of birth" onfocus="(this.type='date')" class="box">              
+                <input type="email" name="email" placeholder="Enter your email id" class="box"  required>
+                <input type="password" name="password" placeholder="Enter your password" class="box" id="blue"  required>
+                <input type="password" name="password2" placeholder="Confirm password" class="box" id="green" required>
+                <input type="checkbox" id="check" name="check">
+<label for="check"  style="font-size: 1.5rem; color:var(--light-color); line-height: 1.8; padding-bottom: 1rem ;padding-top: 1rem ;"> Subscribe for daily updates</label><br>
+              <input type="submit" value="Submit" class="btn" style="color: #353743;">
+            </form>
+    </div>
+        </div>
+        <br>
+        <br>
+        <br>
+    
+    </section>
+    <section class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> vatsala.vridhi@gmail.com </a>
+                <a href="#"> <i class="fas fa-envelope"></i> agampreetkaur@gmail.com </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> mumbai, india - 400104 </a>
+            </div>
+    
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="https://www.facebook.com"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="https://www.twitter.com"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="https://www.instagram.com"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="https://www.linkedin.com"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="https://www.pinterest.com"> <i class="fab fa-pinterest"></i> pinterest </a>
+            </div>
+    
+        </div>
+    
+    
+    </section>
+    
+    <!-- footer section ends -->
+    
+    <!-- custom js file link  -->
+    <script src="js/script1.js"></script>
+</body>
+</html>
