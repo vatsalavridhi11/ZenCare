@@ -1,7 +1,7 @@
 # ZenCare
 
 Introduction
-The Mental Health Awareness Frontend Website is a platform dedicated to promoting mental health awareness and providing valuable resources and information to individuals seeking support and education on mental health issues. This website serves as a gateway for users to access articles, videos, helpline information, and other resources related to mental well-being.
+The Mental Health Awareness Frontend Website is a platform dedicated to promoting mental health awareness and providing valuable resources and information to individuals seeking support and education on mental health issues. This website serves as a gateway for users to access articles helpline information, and other resources related to mental well-being.
 
 Features
 Educational articles  on various mental health topics.
